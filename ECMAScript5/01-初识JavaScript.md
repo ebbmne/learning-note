@@ -1,6 +1,6 @@
 ##  JavaScript 简介
 
-#### 浏览器中 JavaScript 的组成部分
+### 浏览器中 JavaScript 的组成部分
 
 1. ECMAScript
 2. DOM - Document Object Model
@@ -10,7 +10,7 @@
 
 ## 在 HTML 中使用 JavaScript
 
-####  \<script> 标签的正确写法
+###  \<script> 标签的正确写法
 
 符合规范的写法：
 ```html
@@ -25,7 +25,7 @@ type属性的默认值是"text/javascript"，所以可以省略type属性
 
 <br/>
 
-####  \</script> 的使用注意点
+###  \</script> 的使用注意点
 
 在使用\<script>嵌入 JavaScript 代码时，记住不要在代码中的任何地方出现"\</script>"字符串，例如，浏览器在加载下面所示的代码时就会产生一个错误：
 ```html
@@ -46,7 +46,7 @@ type属性的默认值是"text/javascript"，所以可以省略type属性
 
 <br/>
 
-####  \<script> 标签的 src 属性
+###  \<script> 标签的 src 属性
 
 带有 src 属性的\<script>元素不应该在其\<script>和\</script>标签之间再包含额外的 JavaScript 代码
 
@@ -56,7 +56,7 @@ src 属性可以包含来自外部域的 JavaScript 文件，即能够实现跨�
 
 <br/>
 
-#### \<script> 标签的位置
+### \<script> 标签的位置
 
 按照传统的做法，所有\<script>元素都应该放在页面的\<head>元素中这种做法的目的就是把所有外部文件（包括 CSS 文件和 JavaScript 文件）的引用都放在相同的地方。
 
@@ -93,7 +93,7 @@ src 属性可以包含来自外部域的 JavaScript 文件，即能够实现跨�
 
 <br/>
 
-#### 延迟脚本(defer 属性)
+### 延迟脚本(defer 属性)
 
 在\<script>元素中设置defer 属性，相当于告诉浏览器立即下载，但延迟执行——脚本会被延迟到整个页面都解析完毕后再运行
 
@@ -115,7 +115,7 @@ src 属性可以包含来自外部域的 JavaScript 文件，即能够实现跨�
 
 <br/>
 
-#### 异步加载脚本
+### 异步加载脚本
 
 HTML5 为\<script>元素定义了async属性，async属性只适用于外部脚本文件，用于改变处理脚本的行为
 
@@ -139,7 +139,7 @@ HTML5 为\<script>元素定义了async属性，async属性只适用于外部脚�
 
 <br/>
 
-####  JavaScript代码写在外部js文件的优势（与写在\<script>标签中对比）
+###  JavaScript代码写在外部js文件的优势（与写在\<script>标签中对比）
 
 1. 更好的可维护性
 2. 外部js文件可缓存
@@ -147,6 +147,6 @@ HTML5 为\<script>元素定义了async属性，async属性只适用于外部脚�
 
 <br/>
 
-#### 浏览器的安全限制
+### 浏览器的安全限制
 
 以file://开头的地址无法执行如联网等JavaScript代码
