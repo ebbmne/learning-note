@@ -6,7 +6,7 @@
 2. DOM - Document Object Model
 3. BOM - Browser Object Model
 
-<br/><br/><br/>
+<br/><br/>
 
 ## 在 HTML 中使用 JavaScript
 
@@ -23,28 +23,28 @@
 
 type属性的默认值是"text/javascript"，所以可以省略type属性
 
-<br/><br/><br/>
+<br/>
 
 ####  \</script> 的使用注意点
 
 在使用\<script>嵌入 JavaScript 代码时，记住不要在代码中的任何地方出现"\</script>"字符串，例如，浏览器在加载下面所示的代码时就会产生一个错误：
 ```html
 <script type="text/javascript">
-	function sayScript(){
-		alert("</script>");
-	}
+    function sayScript(){
+        alert("</script>");
+    }
 </script>
 ```
 而通过转义字符“/”可以解决这个问题，例如：
 ```html
 <script type="text/javascript">
-	function sayScript(){
-		alert("<\/script>");
-	}
+    function sayScript(){
+        alert("<\/script>");
+    }
 </script> 
 ```
 
-<br/><br/><br/>
+<br/>
 
 ####  \<script> 标签的 src 属性
 
@@ -54,7 +54,7 @@ type属性的默认值是"text/javascript"，所以可以省略type属性
 
 src 属性可以包含来自外部域的 JavaScript 文件，即能够实现跨域（JSONP的实现原理）
 
-<br/><br/><br/>
+<br/>
 
 #### \<script> 标签的位置
 
@@ -64,7 +64,7 @@ src 属性可以包含来自外部域的 JavaScript 文件，即能够实现跨�
 
 解决方法：现代 Web 应用程序一般都把全部JavaScript引用放在<body>元素中页面内容的后面，这样，在解析包含的 JavaScript代码之前，页面的内容将完全呈现在浏览器中。而用户也会因为浏览器窗口显示空白页面的时间缩短而感到打开页面的速度加快了。
 
-<br/><br/><br/>
+<br/>
 
 ####  \<noscript> 标签
 
@@ -73,16 +73,16 @@ src 属性可以包含来自外部域的 JavaScript 文件，即能够实现跨�
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Example HTML Page</title>
-		<script type="text/javascript" defer="defer" src="example1.js"></script>
-		<script type="text/javascript" defer="defer" src="example2.js"></script>
-	</head>
-	<body>
-		<noscirpt>
-			你的浏览器不支持脚本，请更换更高级的浏览器
-		</noscript>
-	</body>
+    <head>
+        <title>Example HTML Page</title>
+        <script type="text/javascript" defer="defer" src="example1.js"></script>
+        <script type="text/javascript" defer="defer" src="example2.js"></script>
+    </head>
+    <body>
+        <noscirpt>
+            你的浏览器不支持脚本，请更换更高级的浏览器
+        </noscript>
+    </body>
 </html> 
 ```
 
@@ -91,7 +91,7 @@ src 属性可以包含来自外部域的 JavaScript 文件，即能够实现跨�
 1. 浏览器不支持脚本
 2. 浏览器支持脚本，但脚本被禁用
 
-<br/><br/><br/>
+<br/>
 
 #### 延迟脚本(defer 属性)
 
@@ -100,20 +100,20 @@ src 属性可以包含来自外部域的 JavaScript 文件，即能够实现跨�
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Example HTML Page</title>
-		<script type="text/javascript" defer="defer" src="example1.js"></script>
-		<script type="text/javascript" defer="defer" src="example2.js"></script>
-	</head>
-	<body>
-		<!-- 这里放内容 -->
-	</body>
+    <head>
+        <title>Example HTML Page</title>
+        <script type="text/javascript" defer="defer" src="example1.js"></script>
+        <script type="text/javascript" defer="defer" src="example2.js"></script>
+    </head>
+    <body>
+        <!-- 这里放内容 -->
+    </body>
 </html> 
 ```
 
 在现实当中，延迟脚本并不一定会按照顺序执行，也不一定会在 DOMContentLoaded 事件触发前执行，因此最好只包含一个延迟脚本。
 
-<br/><br/><br/>
+<br/>
 
 #### 异步加载脚本
 
@@ -122,14 +122,14 @@ HTML5 为\<script>元素定义了async属性，async属性只适用于外部脚�
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Example HTML Page</title>
-		<script type="text/javascript" async="async" src="example1.js"></script>
-		<script type="text/javascript" async="async" src="example2.js"></script>
-	</head>
-	<body>
-		<!-- 这里放内容 -->
-	</body>
+    <head>
+        <title>Example HTML Page</title>
+        <script type="text/javascript" async="async" src="example1.js"></script>
+        <script type="text/javascript" async="async" src="example2.js"></script>
+    </head>
+    <body>
+        <!-- 这里放内容 -->
+    </body>
 </html> 
 ```
 
@@ -137,7 +137,7 @@ HTML5 为\<script>元素定义了async属性，async属性只适用于外部脚�
 
 不能保证异步脚本按照它们在页面中出现的顺序执行，所以多个 async 标记的脚本不要存在依赖关系
 
-<br/><br/><br/>
+<br/>
 
 ####  JavaScript代码写在外部js文件的优势（与写在\<script>标签中对比）
 
@@ -145,7 +145,7 @@ HTML5 为\<script>元素定义了async属性，async属性只适用于外部脚�
 2. 外部js文件可缓存
 3. 更好的封装性和解耦
 
-<br/><br/><br/>
+<br/>
 
 #### 浏览器的安全限制
 
