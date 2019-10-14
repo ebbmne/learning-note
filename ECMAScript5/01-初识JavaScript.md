@@ -6,7 +6,7 @@
 2. DOM - Document Object Model
 3. BOM - Browser Object Model
 
-<br/><br/>
+<br/>
 
 ## 在 HTML 中使用 JavaScript
 
@@ -66,7 +66,7 @@ src 属性可以包含来自外部域的 JavaScript 文件，即能够实现跨�
 
 <br/>
 
-####  \<noscript> 标签
+###  \<noscript> 标签
 
 早期浏览器都面临一个特殊的问题，即当浏览器不支持JavaScript时如何让页面平稳地退化。对这个问题的最终解决方案就是创造一个\<noscript>元素，用以在不支持 JavaScript 的浏览器中显示替代
 的内容
