@@ -4,7 +4,7 @@
 
 ## 类型
 
-#### 类型注解
+### 类型注解
 
 可以指定变量、常量、参数和返回值等的类型，用于编译时进行类型检查，当值不符合注解的类型时，TypeScript会报错
 
@@ -38,7 +38,7 @@ let arr4: [number, string, boolean] = [123, "456", true];
 
 <br/>
 
-#### 类型断言
+### 类型断言
 
 在一些情况下，你会比TypeScript更加了解某个值的具体类型，这时可以使用类型断言，让TypeScript不进行类型检查
 
@@ -62,7 +62,7 @@ let arr4: [number, string, boolean] = [123, "456", true];
 
 <br/>
 
-#### 类型系统增强
+### 类型系统增强
 
 - number, string, boolean, symbol 与 ECMAScript 一样
 
