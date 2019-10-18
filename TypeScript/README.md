@@ -2,9 +2,9 @@
 
 <br/>
 
-| 内容     | 查看 |
-| -------- | ---- |
-| 类型     |      |
-| 接口     |      |
-| 面向对象 |      |
+| 内容     | 查看                                                         |
+| -------- | ------------------------------------------------------------ |
+| 类型     | [查看](https://github.com/ebbmne/learning-note/blob/master/TypeScript/01-类型.md) |
+| 接口     | [查看](https://github.com/ebbmne/learning-note/blob/master/TypeScript/02-接口.md) |
+| 面向对象 | [查看](https://github.com/ebbmne/learning-note/blob/master/TypeScript/03-面向对象.md) |
 
