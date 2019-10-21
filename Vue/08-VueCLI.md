@@ -61,6 +61,29 @@ vue create [项目名称]
 vue ui
 ```
 
+进行组件原型开发
+
+```html
+<!-- App.vue -->
+<template>
+    <h1>{{ welcome }}</h1>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            welcome: "Hello Vue-cli 3.0"
+        }
+    }
+}
+</script>
+```
+```shell
+# App.vue 所在目录
+vue serve
+```
+
 <br/>
 
 ### runtime-only和runtime-compiler
