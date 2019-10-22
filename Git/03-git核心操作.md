@@ -40,7 +40,7 @@
 
 - 快照示意图
 
-  ![](./images/版本快照.png)
+  ![](./images/snapshot.png)
 
 <br/>
 
@@ -90,15 +90,15 @@
 
   - --soft：工作区移动，暂存区，本地库都不移动
 
-    ![](./images/soft模式.png)
+    ![](./images/soft-mode.png)
 
   - --mixed：工作区，暂存区都移动，本地库不移动
 
-    ![](./images/mixed模式.png)
+    ![](./images/mixed-mode.png)
 
   - --hard：工作区，暂存区，本地库都移动
 
-    ![](./images/hard模式.png)
+    ![](./images/hard-mode.png)
 
 <br/>
 
@@ -140,7 +140,7 @@
 
   * 示意图
 
-    ![](./images/分支示意图.png)
+    ![](./images/branch.png)
 
 * 分支优点
 
