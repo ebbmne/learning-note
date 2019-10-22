@@ -4,7 +4,7 @@
 
 * 示意图
 
-  ![](./images/git结构.png)
+  ![](./images/git-region.png)
 
 * 命令行提示颜色
   * 工作区：红色
