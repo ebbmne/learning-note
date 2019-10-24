@@ -193,8 +193,13 @@ git revert -n 版本号
 
 ### 保存隐藏工作区
 
-| 命令           | 功能                         |
-| -------------- | ---------------------------- |
-| git stash      | 暂时保存隐藏工作区到栈中     |
-| git stash list | 查看栈中被保存隐藏的工作区   |
-| git pop        | 从栈中弹出被保存隐藏的工作区 |
+| 命令                         | 功能                                                         |
+| ---------------------------- | ------------------------------------------------------------ |
+| git stash                    | 暂时保存隐藏工作区到列表中                                   |
+| git stash save "message"     | 暂时保存隐藏工作区到列表中，且标注了提示信息                 |
+| git stash list               | 查看列表中被保存隐藏的工作区                                 |
+| git stash show               | 显示第$num个存储做了哪些改动                                 |
+| git stash pop                | 从列表中弹出被保存隐藏的工作区                               |
+| git stash apply stash@{$num} | 应用某个存储，但不会把存储从存储列表中删除<br/>默认使用第一个存储,即stash@{0}<br/>如果要使用其他存储，git stash apply stash@{$num} |
+| git stash drop stash@{$num}  | 丢弃stash@{$num}存储，从列表中删除这个存储                   |
+| git stash clear              | 删除所有缓存的stash                                          |
