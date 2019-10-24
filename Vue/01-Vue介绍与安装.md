@@ -29,7 +29,7 @@ MVVM：`M(Model)` + `V(View)` + `VM(ViewModel)`
   * 前端开发中通常就是DOM层
   * 主要的作用是给用户展示各种信息
 * Model
-  * 数据层
+  * 数据层/模型层
   * 存储应用的数据
 * ViewModel
   * 视图模型层
