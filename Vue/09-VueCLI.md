@@ -4,15 +4,11 @@ CLI：Command-Line Interface，翻译为命令行界面，俗称脚手架
 
 Vue CLI 是一个用于搭建出Vue开发环境的工具，它能够配置好webpack以及代码目录结构、项目构建、项目部署、热加载、代码单元测试等事情
 
-<br/>
-
 ### Vue CLI 安装
 
 ```shell
 npm install -g @vue/cli
 ```
-
-<br/>
 
 ### Vue CLI 版本
 
@@ -30,8 +26,6 @@ Vue CLI 分为两个版本，分别为 Vue CLI 2 和 Vue CLI 3
 ```shell
 npm install -g @vue/cli-init
 ```
-
-<br/>
 
 ### Vue CLI 使用
 
@@ -83,8 +77,6 @@ export default {
 # App.vue 所在目录
 vue serve
 ```
-
-<br/>
 
 ### runtime-only和runtime-compiler
 
@@ -163,5 +155,26 @@ new Vue({
         ])
     }
 });
+```
+
+<br/>
+
+### devtools
+
+`devtools`是`Vue`官方推出一个调试工具，可以通过谷歌浏览器插件的形式进行安装，如果不能访问谷歌浏览器商店，则可以通过下面的方式进行下载、安装和使用
+
+#### 下载与安装
+
+```shell
+# 通过npm安装
+$ npm install -g @vue/devtools
+# 通过yarn安装
+$ yarn global add @vue/devtools
+```
+
+#### 使用
+
+```shell
+$ vue-devtools
 ```
 
