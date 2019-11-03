@@ -66,6 +66,18 @@ new Vue({
 
 ![](./image/vuex.png)
 
+| 方法     | 参数             |
+| -------- | ---------------- |
+| getter   | state, getters   |
+| mutation | state, payload   |
+| action   | context, payload |
+
+| 方法     | 参数                        |
+| -------- | --------------------------- |
+| getter   | state, getters, rootState   |
+| mutation | state, payload, rootState   |
+| action   | context, payload, rootState |
+
 <br/>
 
 ### state

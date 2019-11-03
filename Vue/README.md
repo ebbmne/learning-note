@@ -7,6 +7,6 @@
 | Vue指令       | [查看](https://github.com/ebbmne/learning-note/blob/master/Vue/05-Vue指令.md) |
 | Vue组件化     | [查看](https://github.com/ebbmne/learning-note/blob/master/Vue/06-Vue组件化.md) |
 | VueRouter     | [查看](https://github.com/ebbmne/learning-note/blob/master/Vue/07-VueRouter.md) |
-| Vuex          | ToDo                                                         |
+| Vuex          | [查看](https://github.com/ebbmne/learning-note/blob/master/Vue/08-Vuex.md) |
 | VueCLI        | [查看](https://github.com/ebbmne/learning-note/blob/master/Vue/09-VueCLI.md) |
 
