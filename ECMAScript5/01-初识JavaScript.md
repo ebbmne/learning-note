@@ -1,5 +1,3 @@
-##  JavaScript 简介
-
 ### 浏览器中 JavaScript 的组成部分
 
 1. ECMAScript
@@ -7,8 +5,6 @@
 3. BOM - Browser Object Model
 
 <br/>
-
-## 在 HTML 中使用 JavaScript
 
 ###  \<script> 标签的正确写法
 
